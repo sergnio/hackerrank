@@ -11,7 +11,7 @@
  * @param ar array containing different colors, represented by integers
  * @returns {number} the number of pairs
  */
-function sockMerchant(n, ar) {
+module.exports = function(n, ar) {
     // Create an empty key value map to keep track of socks and pairs
     let socks = {};
     // sum total
@@ -42,5 +42,3 @@ function sockMerchant(n, ar) {
     return pairs;
 
 }
-
-console.log(sockMerchant(9, [10, 20, 20, 10, 10, 30, 50, 10, 20]))
